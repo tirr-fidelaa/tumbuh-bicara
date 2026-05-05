@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Milestone Perkembangan Bicara dan Bahasa Anak",
+    "version": "1.0.0",
+    "referensi": ["WHO Child Development Milestones", "IDAI", "CDC Developmental Milestones", "KPSP"],
+    "threshold_sesuai": 0.8,
+    "threshold_konsultasi": 0.5
+  },
+  "redFlags": [
+    {
+      "id": "rf_001",
+      "deskripsi": "Kemampuan bicara yang sudah ada tiba-tiba menghilang",
+      "contoh": "Misalnya: dulu bisa bilang 'mama' tapi sekarang tidak lagi"
+    },
+    {
+      "id": "rf_002",
+      "deskripsi": "Tidak ada kontak mata sama sekali saat diajak bicara",
+      "contoh": "Anak menghindari menatap wajah orang yang berbicara padanya"
+    },
+    {
+      "id": "rf_003",
+      "deskripsi": "Tidak pernah menunjuk benda untuk menarik perhatian orang lain",
+      "contoh": "Tidak pernah menunjuk mainan, makanan, atau orang yang diinginkan"
+    }
+  ],
+  "kelompokUsia": [
+    {
+      "id": "usia_0_3",
+      "label": "0–3 bulan",
+      "usia_min_bulan": 0,
+      "usia_max_bulan": 3,
+      "milestones": [
+        { "id": "m_0_3_01", "deskripsi": "Terkejut atau berkedip ketika mendengar suara keras", "kategori": "Reseptif" },
+        { "id": "m_0_3_02", "deskripsi": "Menenangkan diri ketika mendengar suara orang tua yang familiar", "kategori": "Reseptif" },
+        { "id": "m_0_3_03", "deskripsi": "Menoleh ke arah sumber suara", "kategori": "Reseptif" },
+        { "id": "m_0_3_04", "deskripsi": "Mengeluarkan suara selain tangisan seperti 'aaah' atau 'ooh'", "kategori": "Ekspresif" },
+        { "id": "m_0_3_05", "deskripsi": "Tersenyum ketika mendengar suara yang dikenalnya", "kategori": "Sosial" },
+        { "id": "m_0_3_06", "deskripsi": "Memiliki tangisan yang berbeda untuk lapar, tidak nyaman, dan lelah", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_4_6",
+      "label": "4–6 bulan",
+      "usia_min_bulan": 4,
+      "usia_max_bulan": 6,
+      "milestones": [
+        { "id": "m_4_6_01", "deskripsi": "Melihat ke arah orang yang berbicara kepadanya", "kategori": "Reseptif" },
+        { "id": "m_4_6_02", "deskripsi": "Merespons dengan senyuman atau suara ketika diajak bicara", "kategori": "Sosial" },
+        { "id": "m_4_6_03", "deskripsi": "Mulai berceloteh dengan menggabungkan konsonan dan vokal seperti 'ba', 'ma', 'da'", "kategori": "Ekspresif" },
+        { "id": "m_4_6_04", "deskripsi": "Tertawa keras ketika senang atau diajak bermain", "kategori": "Ekspresif" },
+        { "id": "m_4_6_05", "deskripsi": "Mengeluarkan suara untuk menarik perhatian orang di sekitarnya", "kategori": "Ekspresif" },
+        { "id": "m_4_6_06", "deskripsi": "Tampak mendengarkan dan memperhatikan ketika orang tua berbicara", "kategori": "Reseptif" }
+      ]
+    },
+    {
+      "id": "usia_7_9",
+      "label": "7–9 bulan",
+      "usia_min_bulan": 7,
+      "usia_max_bulan": 9,
+      "milestones": [
+        { "id": "m_7_9_01", "deskripsi": "Menoleh ketika namanya dipanggil", "kategori": "Reseptif" },
+        { "id": "m_7_9_02", "deskripsi": "Tampak memahami kata 'tidak' atau 'jangan' dengan berhenti sebentar", "kategori": "Reseptif" },
+        { "id": "m_7_9_03", "deskripsi": "Berceloteh panjang seperti 'bababa', 'mamama', atau 'dadada'", "kategori": "Ekspresif" },
+        { "id": "m_7_9_04", "deskripsi": "Mencoba meniru suara atau intonasi yang didengarnya", "kategori": "Ekspresif" },
+        { "id": "m_7_9_05", "deskripsi": "Menggunakan suara atau gerakan untuk menarik perhatian orang", "kategori": "Sosial" },
+        { "id": "m_7_9_06", "deskripsi": "Tampak memperhatikan percakapan yang terjadi di sekitarnya", "kategori": "Reseptif" }
+      ]
+    },
+    {
+      "id": "usia_10_12",
+      "label": "10–12 bulan",
+      "usia_min_bulan": 10,
+      "usia_max_bulan": 12,
+      "milestones": [
+        { "id": "m_10_12_01", "deskripsi": "Mengucapkan 1–2 kata bermakna seperti 'mama', 'papa', atau nama benda tertentu", "kategori": "Ekspresif" },
+        { "id": "m_10_12_02", "deskripsi": "Merespons instruksi sederhana seperti 'ayo sini' atau 'tepuk tangan'", "kategori": "Reseptif" },
+        { "id": "m_10_12_03", "deskripsi": "Menunjuk benda atau orang yang diinginkan", "kategori": "Sosial" },
+        { "id": "m_10_12_04", "deskripsi": "Melambaikan tangan untuk 'da-da' atau 'bye-bye'", "kategori": "Sosial" },
+        { "id": "m_10_12_05", "deskripsi": "Memahami nama benda sehari-hari yang sering disebut", "kategori": "Reseptif" },
+        { "id": "m_10_12_06", "deskripsi": "Mencoba meniru kata-kata yang diucapkan orang dewasa", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_13_18",
+      "label": "13–18 bulan",
+      "usia_min_bulan": 13,
+      "usia_max_bulan": 18,
+      "milestones": [
+        { "id": "m_13_18_01", "deskripsi": "Mengucapkan 5–10 kata bermakna yang berbeda", "kategori": "Ekspresif" },
+        { "id": "m_13_18_02", "deskripsi": "Menunjuk gambar di buku ketika disebutkan namanya", "kategori": "Reseptif" },
+        { "id": "m_13_18_03", "deskripsi": "Mengikuti instruksi satu langkah sederhana tanpa isyarat tangan", "kategori": "Reseptif" },
+        { "id": "m_13_18_04", "deskripsi": "Menggunakan kata untuk meminta sesuatu atau minta tolong", "kategori": "Ekspresif" },
+        { "id": "m_13_18_05", "deskripsi": "Menunjuk anggota tubuh ketika ditanya, misalnya 'mana hidungnya?'", "kategori": "Reseptif" },
+        { "id": "m_13_18_06", "deskripsi": "Sering mencoba meniru kata baru yang baru didengar", "kategori": "Ekspresif" },
+        { "id": "m_13_18_07", "deskripsi": "Menggunakan intonasi naik untuk bertanya meski kata-katanya belum jelas", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_19_24",
+      "label": "19–24 bulan",
+      "usia_min_bulan": 19,
+      "usia_max_bulan": 24,
+      "milestones": [
+        { "id": "m_19_24_01", "deskripsi": "Mengucapkan minimal 50 kata yang berbeda-beda", "kategori": "Ekspresif" },
+        { "id": "m_19_24_02", "deskripsi": "Mulai menggabungkan dua kata seperti 'mau susu' atau 'mama pergi'", "kategori": "Ekspresif" },
+        { "id": "m_19_24_03", "deskripsi": "Menggunakan kata ganti sederhana seperti 'aku' atau menyebut nama sendiri", "kategori": "Ekspresif" },
+        { "id": "m_19_24_04", "deskripsi": "Mengikuti instruksi dua langkah seperti 'ambil buku lalu taruh di meja'", "kategori": "Reseptif" },
+        { "id": "m_19_24_05", "deskripsi": "Menunjuk gambar di buku dan menyebutkan namanya sendiri tanpa diminta", "kategori": "Ekspresif" },
+        { "id": "m_19_24_06", "deskripsi": "Orang yang tidak dikenal dapat memahami sekitar 50% ucapannya", "kategori": "Ekspresif" },
+        { "id": "m_19_24_07", "deskripsi": "Mulai bertanya dengan kata 'apa' atau 'mana'", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_25_30",
+      "label": "25–30 bulan",
+      "usia_min_bulan": 25,
+      "usia_max_bulan": 30,
+      "milestones": [
+        { "id": "m_25_30_01", "deskripsi": "Menggunakan kalimat 2–3 kata secara rutin dalam percakapan sehari-hari", "kategori": "Ekspresif" },
+        { "id": "m_25_30_02", "deskripsi": "Dapat menyebutkan nama lengkap dirinya sendiri", "kategori": "Ekspresif" },
+        { "id": "m_25_30_03", "deskripsi": "Memahami konsep 'satu' dan 'banyak'", "kategori": "Reseptif" },
+        { "id": "m_25_30_04", "deskripsi": "Menggunakan kata sifat dasar seperti 'besar', 'panas', atau 'kotor'", "kategori": "Ekspresif" },
+        { "id": "m_25_30_05", "deskripsi": "Mulai bertanya menggunakan kata 'kenapa' atau 'siapa'", "kategori": "Ekspresif" },
+        { "id": "m_25_30_06", "deskripsi": "Dapat menceritakan kembali kejadian sederhana yang baru dialami", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_31_36",
+      "label": "31–36 bulan",
+      "usia_min_bulan": 31,
+      "usia_max_bulan": 36,
+      "milestones": [
+        { "id": "m_31_36_01", "deskripsi": "Berbicara dalam kalimat 3–4 kata dengan cukup jelas", "kategori": "Ekspresif" },
+        { "id": "m_31_36_02", "deskripsi": "Orang yang tidak dikenal dapat memahami sekitar 75% ucapannya", "kategori": "Ekspresif" },
+        { "id": "m_31_36_03", "deskripsi": "Memahami konsep posisi seperti 'di atas', 'di bawah', 'di dalam', 'di depan'", "kategori": "Reseptif" },
+        { "id": "m_31_36_04", "deskripsi": "Menyebutkan fungsi benda sehari-hari, misalnya 'sendok untuk makan'", "kategori": "Ekspresif" },
+        { "id": "m_31_36_05", "deskripsi": "Mengenal dan menyebutkan minimal 2 warna dengan benar", "kategori": "Ekspresif" },
+        { "id": "m_31_36_06", "deskripsi": "Menyimak cerita pendek dan dapat menjawab pertanyaan sederhana tentangnya", "kategori": "Reseptif" },
+        { "id": "m_31_36_07", "deskripsi": "Menggunakan kata ganti 'aku', 'kamu', 'dia' dengan benar", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_37_48",
+      "label": "37–48 bulan",
+      "usia_min_bulan": 37,
+      "usia_max_bulan": 48,
+      "milestones": [
+        { "id": "m_37_48_01", "deskripsi": "Berbicara dalam kalimat 4–5 kata dengan jelas", "kategori": "Ekspresif" },
+        { "id": "m_37_48_02", "deskripsi": "Hampir semua ucapannya dapat dipahami orang yang tidak dikenal", "kategori": "Ekspresif" },
+        { "id": "m_37_48_03", "deskripsi": "Menceritakan pengalaman sederhana dengan urutan yang masuk akal", "kategori": "Ekspresif" },
+        { "id": "m_37_48_04", "deskripsi": "Dapat mengikuti instruksi tiga langkah tanpa bantuan isyarat", "kategori": "Reseptif" },
+        { "id": "m_37_48_05", "deskripsi": "Mengenal dan menyebutkan minimal 4 warna dengan benar", "kategori": "Ekspresif" },
+        { "id": "m_37_48_06", "deskripsi": "Mengajukan banyak pertanyaan 'mengapa' dan 'bagaimana'", "kategori": "Ekspresif" },
+        { "id": "m_37_48_07", "deskripsi": "Memahami konsep waktu sederhana seperti 'sekarang', 'nanti', dan 'tadi'", "kategori": "Reseptif" },
+        { "id": "m_37_48_08", "deskripsi": "Menyebutkan nama teman atau anggota keluarga dengan benar", "kategori": "Ekspresif" }
+      ]
+    },
+    {
+      "id": "usia_49_60",
+      "label": "49–60 bulan",
+      "usia_min_bulan": 49,
+      "usia_max_bulan": 60,
+      "milestones": [
+        { "id": "m_49_60_01", "deskripsi": "Berbicara dalam kalimat lengkap yang mudah dipahami semua orang", "kategori": "Ekspresif" },
+        { "id": "m_49_60_02", "deskripsi": "Dapat menceritakan kembali cerita sederhana dengan urutan yang benar", "kategori": "Ekspresif" },
+        { "id": "m_49_60_03", "deskripsi": "Menggunakan kata penghubung seperti 'karena', 'tapi', dan 'kalau'", "kategori": "Ekspresif" },
+        { "id": "m_49_60_04", "deskripsi": "Memahami konsep waktu 'kemarin', 'hari ini', dan 'besok'", "kategori": "Reseptif" },
+        { "id": "m_49_60_05", "deskripsi": "Menyebutkan fungsi, warna, bentuk, dan ukuran suatu benda dalam satu kalimat", "kategori": "Ekspresif" },
+        { "id": "m_49_60_06", "deskripsi": "Mengenal dan menyebutkan minimal 6 warna dengan benar", "kategori": "Ekspresif" },
+        { "id": "m_49_60_07", "deskripsi": "Dapat bercakap-cakap bolak-balik dalam topik sederhana selama beberapa giliran", "kategori": "Sosial" },
+        { "id": "m_49_60_08", "deskripsi": "Memahami persamaan dan perbedaan antara dua benda yang berbeda", "kategori": "Reseptif" }
+      ]
+    }
+  ]
+}
