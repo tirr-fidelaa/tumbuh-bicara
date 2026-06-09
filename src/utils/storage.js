@@ -1,11 +1,8 @@
 const KEY = 'tumbuh-bicara-history'
 
 export function getRiwayat() {
-  try {
-    return JSON.parse(localStorage.getItem(KEY) || '[]')
-  } catch {
-    return []
-  }
+  try { return JSON.parse(localStorage.getItem(KEY) || '[]') }
+  catch { return [] }
 }
 
 export function simpanRiwayat(entry) {

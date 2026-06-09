@@ -1,49 +1,28 @@
-.header {
-  display: flex; justify-content: space-between; align-items: flex-start;
-  margin-bottom: 24px;
-}
-
-.title {
-  font-family: var(--font-display);
-  font-size: 24px; font-weight: 500; color: var(--ink);
-}
-.sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
-
-.clearBtn {
-  font-size: 12px; color: var(--red); background: none; border: none;
-  cursor: pointer; padding: 4px 0; transition: opacity .15s;
-}
+.header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+.title { font-family: var(--font-display); font-size: 24px; font-weight: 500; color: var(--ink); }
+.sub   { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.clearBtn { font-size: 12px; color: var(--red); background: none; border: none; cursor: pointer; padding: 4px 0; }
 .clearBtn:hover { opacity: .7; }
-
 .list { display: flex; flex-direction: column; gap: 10px; }
-
 .item {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px 18px;
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 18px;
   display: flex; align-items: center; gap: 12px;
   transition: box-shadow .15s;
 }
 .item:hover { box-shadow: var(--shadow); }
-
 .itemMain { flex: 1; }
 .itemName { font-size: 15px; font-weight: 500; color: var(--ink); }
 .itemMeta { font-size: 12px; color: var(--muted); margin-top: 3px; }
-
 .hapusBtn {
   width: 32px; height: 32px; border-radius: 8px;
   border: 1px solid var(--border); background: transparent;
-  color: var(--muted); cursor: pointer;
+  color: var(--muted); cursor: pointer; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
-  transition: background .15s, color .15s; flex-shrink: 0;
+  transition: background .15s, color .15s, border-color .15s;
 }
 .hapusBtn:hover { background: var(--red-lt); color: var(--red); border-color: var(--red); }
-
-.empty {
-  text-align: center; padding: 64px 20px 40px;
-  color: var(--muted);
-}
+.empty { text-align: center; padding: 60px 20px 40px; color: var(--muted); }
 .emptyIcon { font-size: 44px; margin-bottom: 14px; }
 .empty p   { font-size: 15px; line-height: 1.5; }
-.emptyBtn  { max-width: 220px; margin: 24px auto 0; }
+.emptyBtn  { max-width: 200px; margin: 24px auto 0; }
