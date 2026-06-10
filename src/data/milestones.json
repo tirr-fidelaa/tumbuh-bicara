@@ -90,7 +90,7 @@
     {
       "id": "usia_6_12",
       "label": "6–12 bulan",
-      "usia_min_bulan": 7,
+      "usia_min_bulan": 6,
       "usia_max_bulan": 12,
       "poin_maksimum": 12,
       "redFlagUsia": "Tidak babbling sama sekali, tidak menunjuk, atau belum ada kata bermakna apapun",
@@ -148,7 +148,7 @@
     {
       "id": "usia_12_18",
       "label": "12–18 bulan",
-      "usia_min_bulan": 13,
+      "usia_min_bulan": 12,
       "usia_max_bulan": 18,
       "poin_maksimum": 12,
       "redFlagUsia": "Belum ada kata bermakna sama sekali pada usia 18 bulan",
@@ -206,7 +206,7 @@
     {
       "id": "usia_18_24",
       "label": "18–24 bulan",
-      "usia_min_bulan": 19,
+      "usia_min_bulan": 18,
       "usia_max_bulan": 24,
       "poin_maksimum": 13,
       "redFlagUsia": "Kosakata sangat sedikit atau belum bisa menggabungkan dua kata",
@@ -264,7 +264,7 @@
     {
       "id": "usia_24_36",
       "label": "24–36 bulan",
-      "usia_min_bulan": 25,
+      "usia_min_bulan": 24,
       "usia_max_bulan": 36,
       "poin_maksimum": 13,
       "redFlagUsia": "Belum dapat membuat kalimat sederhana sama sekali",
@@ -322,7 +322,7 @@
     {
       "id": "usia_36_48",
       "label": "36–48 bulan",
-      "usia_min_bulan": 37,
+      "usia_min_bulan": 36,
       "usia_max_bulan": 48,
       "poin_maksimum": 14,
       "redFlagUsia": "Ucapan sering tidak dapat dipahami bahkan oleh anggota keluarga",
@@ -380,7 +380,7 @@
     {
       "id": "usia_48_60",
       "label": "48–60 bulan",
-      "usia_min_bulan": 49,
+      "usia_min_bulan": 48,
       "usia_max_bulan": 60,
       "poin_maksimum": 14,
       "redFlagUsia": "Masih sulit dipahami oleh sebagian besar orang atau kesulitan bercerita secara runtut",

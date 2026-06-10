@@ -30,6 +30,7 @@ export default function Checklist() {
 
   const { nama, usiaBulan, usiaLabel, kelompokId } = nav;
   const kelompok = data.kelompokUsia.find((k) => k.id === kelompokId);
+  if (!kelompok) return null
   const milestones = kelompok?.milestones || [];
   const rfAbsolut = data.redFlagsAbsolut;
 
